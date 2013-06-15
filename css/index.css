@@ -1,0 +1,55 @@
+body {
+	background: url(http://subtlepatterns.com/patterns/cartographer.png);
+
+}
+
+.item img{
+	width: 2000px;
+}
+
+.carousel-inner{
+	height: 100%;
+	overflow: hidden;
+	margin-left: auto;
+}
+
+.navbar {
+	position: relative;
+	top: -20px;
+}
+
+.navbar .nav.pull-center {
+  float: none;
+  margin: 0 auto;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+.navbar li{
+	font-size: 15px;
+	font-family: 微軟正黑體;
+}
+
+
+#xlogo {
+	position: absolute;
+	left: 40%;
+	top: 10%;
+	width: 20%;
+}
+
+
+.title {
+	position: relative;
+	top: -30px;
+	color:#9DC209;
+	display:block;
+	text-align:center;
+	font-family: 微軟正黑體;
+}

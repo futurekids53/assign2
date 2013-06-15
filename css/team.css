@@ -1,0 +1,23 @@
+body {
+  background: url(http://subtlepatterns.com/patterns/old_mathematics.png);
+}
+
+.navbar .nav.pull-center {
+  float: none;
+  margin: 0 auto;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+  height: 40px;
+}
+
+#xlogo {
+  height: 60px;
+  position: relative;
+  top: -10px;
+}
