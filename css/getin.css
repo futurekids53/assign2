@@ -1,5 +1,6 @@
 body {
 	background: url(http://subtlepatterns.com/patterns/old_mathematics.png);
+  font-family: 微軟正黑體;
 }
 
 .navbar .nav.pull-center {
@@ -23,7 +24,61 @@ body {
 }
 
 .content {
-  margin-top: 100px;
-  font-family: 微軟正黑體;
+  margin-top: 80px;
+}
 
+.centered-pills { 
+  text-align:center; 
+  position: relative;
+  left:-35px;
+}
+
+.centered-pills ul.nav-pills { 
+  display:inline-block; 
+}
+
+.centered-pills li { 
+  display:inline; 
+  font-size: 20px;
+}
+
+.centered-pills a { 
+  float:left; 
+}
+
+.title {
+  text-align:center;
+  margin-top:20px;
+  margin-bottom: 50px;
+  font-family: 微軟正黑體;
+  font-size: 40px;
+}
+
+#flow {
+  margin-top: 40px;
+}
+
+.wanted {
+  padding-left: 30px;
+}
+
+#img3 {
+  margin-top: 50px;
+}
+
+#result {
+  margin-top: 40px;
+}
+
+.student h5{
+  text-align: center;
+  font-size: 20px;
+}
+
+.student {
+  margin-bottom: 30px;
+}
+
+.img-circle {
+  box-shadow: 0 10px 6px -6px black;
 }
